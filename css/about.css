@@ -1,0 +1,58 @@
+.navigation li a {
+    color: black;
+}
+.navigation li a:hover {
+    color: black;
+}
+.about-name {
+    color: gray;
+}
+.footer-list {
+    margin: 20px !important ;
+}
+.btn-about {
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-about:hover {
+    color: black;
+    text-decoration: none;
+}
+@media (max-width: 992px) {
+    .about-name {
+        font-size: 20px;
+    }
+    .name2-text {
+        font-size: 15px;
+    }
+    .text-about {
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-list {
+        margin: 10px !important;
+    }
+}
+@media (max-width: 575px) {
+    .name2-text {
+        text-align: center;
+    }
+    .text-about {
+        text-align: center;
+    }
+    .btn-about {
+        margin: auto;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+}
